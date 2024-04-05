@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogBot", "FrogBot\FrogBot.csproj", "{AFCF4C0F-4A4A-4307-91FE-1B3BFB9D11AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propaganda", "Propaganda\Propaganda.csproj", "{AFCF4C0F-4A4A-4307-91FE-1B3BFB9D11AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,7 +2,7 @@
 using Discord.Interactions;
 using Discord.WebSocket;
 
-namespace FrogBot.Services.Hosted.Entry;
+namespace Propaganda.Services.Hosted.Entry;
 
 public sealed partial class BotService(
     DiscordSocketClient client,

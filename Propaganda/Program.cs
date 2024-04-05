@@ -1,5 +1,5 @@
-using FrogBot.Components;
-using FrogBot.Extensions;
+using Propaganda.Components;
+using Propaganda.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddFrogBot();
+builder.Services.AddPropaganda();
 
 var app = builder.Build();
 

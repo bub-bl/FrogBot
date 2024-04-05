@@ -1,15 +1,14 @@
 ﻿using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
-using FrogBot.Services.Hosted;
-using FrogBot.Services.Hosted.Interactions;
-using BotService = FrogBot.Services.Hosted.Entry.BotService;
+using Propaganda.Services.Hosted.Interactions;
+using BotService = Propaganda.Services.Hosted.Entry.BotService;
 
-namespace FrogBot.Extensions;
+namespace Propaganda.Extensions;
 
-public static class FrogBotExtensions
+public static class PropagandaExtensions
 {
-    public static IServiceCollection AddFrogBot(this IServiceCollection services)
+    public static IServiceCollection AddPropaganda(this IServiceCollection services)
     {
         var config = new DiscordSocketConfig
         {

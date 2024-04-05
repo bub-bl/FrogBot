@@ -1,6 +1,6 @@
 ﻿using Discord;
 
-namespace FrogBot.Services.Hosted.Entry;
+namespace Propaganda.Services.Hosted.Entry;
 
 public sealed partial class BotService
 {

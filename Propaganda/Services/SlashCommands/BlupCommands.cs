@@ -1,7 +1,7 @@
 ﻿using Discord;
 using Discord.Interactions;
 
-namespace FrogBot.Services.SlashCommands;
+namespace Propaganda.Services.SlashCommands;
 
 [DefaultMemberPermissions(GuildPermission.ManageChannels)]
 public sealed class BlupCommands : InteractionModuleBase<InteractionContext>
