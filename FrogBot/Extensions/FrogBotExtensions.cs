@@ -13,7 +13,7 @@ public static class FrogBotExtensions
     {
         var config = new DiscordSocketConfig
         {
-            GatewayIntents = GatewayIntents.AllUnprivileged,
+            GatewayIntents = GatewayIntents.All,
             LogLevel = LogSeverity.Info,
             MessageCacheSize = 0
         };
