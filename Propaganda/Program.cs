@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.ConfigureElevenLabs();
 builder.Services.AddPropaganda();
 
 var app = builder.Build();
