@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <PackageReference Include="Discord.Net" Version="3.14.1" />
+      <PackageReference Include="ElevenLabs-DotNet" Version="2.1.1" />
     </ItemGroup>
 
 </Project>
